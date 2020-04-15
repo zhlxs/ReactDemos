@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import Test1 from './test1'
 import * as serviceWorker from './serviceWorker';
-
+//JSX javascript和xml,虚拟dom
+//<,当html运行
+//{,当成script运行脚本
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Test1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
